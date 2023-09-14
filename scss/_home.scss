@@ -1,0 +1,21 @@
+.home {
+    background:
+        linear-gradient(to right,
+            rgba($primary-color, 1),
+            rgba($primary-color, 0.5)),
+        url("/img/img1.webp") center top;
+    height: 100%;
+    padding-top: 40vh;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    background-size: cover;
+
+    &__name {
+        font-size: 4rem;
+        padding-bottom: 2rem;
+        color: $secondary-color;
+        margin: 0rem 1rem 1rem 1rem;
+        border-bottom: 1px solid set-text-color($primary-color);
+    }
+}

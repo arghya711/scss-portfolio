@@ -1,0 +1,37 @@
+.contact {
+    background:
+        linear-gradient(to right,
+            rgba($primary-color, 1),
+            rgba($primary-color, 0.5)),
+        url("/dist/img/img1.webp") center top;
+    height: 100%;
+    padding-top: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-size: cover;
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 3rem;
+        font-size: 1.2rem;
+
+        .text-secondary {
+            margin-top: 0.5rem;
+        }
+
+    }
+
+    .social-icons {
+        position: initial;
+        margin-top: 3rem;
+    }
+}
