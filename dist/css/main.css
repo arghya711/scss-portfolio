@@ -5,7 +5,7 @@
 }
 
 .home {
-  background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("/dist/img/img1.jpg") center top;
+  background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("/dist/img/img1.webp") center top;
   height: 100%;
   padding-top: 40vh;
   align-items: center;
@@ -136,7 +136,7 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("../dist/img/img1.webp") center top;
+  background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("/dist/img/img1.webp") center top;
   height: 100%;
   padding-top: 40vh;
   align-items: center;
@@ -190,7 +190,7 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("../dist/img/project.jpg") center top;
+  background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("/dist/img/project.jpg") center top;
   align-items: center;
   background-size: cover;
   display: flex;
@@ -265,7 +265,7 @@
 }
 
 .contact {
-  background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("../dist/img/img1.webp") center top;
+  background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("/dist/img/img1.webp") center top;
   height: 100%;
   padding-top: 30vh;
   display: flex;
