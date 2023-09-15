@@ -5,7 +5,7 @@
 }
 
 .home {
-  background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("/img/img1.webp") center top;
+  background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("../img/img1.webp") center top;
   height: 100%;
   padding-top: 40vh;
   align-items: center;
